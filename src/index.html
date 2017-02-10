@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="Michał Dobrowolski">
+	<title>Zadanie</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+	<!-- build:css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- endbuild -->
+</head>
+<body>
+	<header id="portfolio" class="header wrapper">
+		<div class="container">
+			<a class="title" href="/">
+				<h1 class="nag nag--dark">Portfolio</h1>
+			</a>
+			<ul class="filters">
+				<li class="filter_li selected">
+					<a class="filter_li__btn" href="#filter" data-value="all">All</a>
+				</li>
+				<li class="filter_li">
+					<a class="filter_li__btn" href="#filter" data-value="filter-1">Filtr nr 1</a>
+				</li>
+				<li class="filter_li">
+					<a class="filter_li__btn" href="#filter" data-value="filter-2">Filtr nr 2</a>
+				</li>
+				<li class="filter_li">
+					<a class="filter_li__btn" href="#filter" data-value="filter-3">Filtr nr 3</a>
+				</li>
+			</ul>	
+			<div class="boxes">
+				<div class="box visible" data-category="filter-1">
+					<a class="box__link" href="#link">
+						<img class="box__img" src="./images/img1.jpg" alt="img1">
+					</a>
+				</div>
+				<div class="box visible" data-category="filter-2">
+					<a class="box__link" href="#link">
+						<img class="box__img" src="./images/img2.jpg" alt="img2">
+					</a>
+				</div>
+				<div class="box visible" data-category="filter-3">
+					<a class="box__link" href="#link">
+						<img class="box__img" src="./images/img3.jpg" alt="img3">
+					</a>
+				</div>
+				<div class="box visible" data-category="filter-1">
+					<a class="box__link" href="#link">
+						<img class="box__img" src="./images/img1.jpg" alt="img1">
+					</a>
+				</div>
+				<div class="box visible" data-category="filter-1">
+					<a class="box__link" href="#link">
+						<img class="box__img" src="./images/img1.jpg" alt="img1">
+					</a>
+				</div>
+				<div class="box visible" data-category="filter-2">
+					<a class="box__link" href="#link">
+						<img class="box__img" src="./images/img2.jpg" alt="img2">
+					</a>
+				</div>
+				<div class="box visible" data-category="filter-3">
+					<a class="box__link" href="#link">
+						<img class="box__img" src="./images/img3.jpg" alt="img3">
+					</a>
+				</div>
+				<div class="box visible" data-category="filter-1">
+					<a class="box__link" href="#link">
+						<img class="box__img" src="./images/img1.jpg" alt="img1">
+					</a>
+				</div>
+			</div>
+		</div>	
+	</header>
+	<footer id="contact" class="footer wrapper">
+		<div class="container">
+			<h2 class="nag nag--light">Kontakt</h2>
+			<form class="contact_form" action="#" method="post" accept-charset="utf-8">
+				<div class="form_group form_group__col">
+					<div class="form_item form_item__input">
+						<label for="contact_name">Imię i nazwisko</label>
+						<input type="text" id="contact_name" name="contact_name" required tabindex="1">
+					</div>
+					<div class="form_item form_item__input">
+						<label for="contact_email">Email</label>
+						<input type="email" id="contact_email" name="contact_email" required tabindex="2">
+					</div>
+				</div>
+				<div class="contact_info">
+					<div class="contact_info__text">
+						<p>Lorem ipsum dolor sit amet, consecteur adipiscing elit. Pellentesque accumsan gravida sem, quis pretium eros aliquet eget. Ut nec justo risus. Fusce sed erat risus. Cras congue mauris sed ex aliquet viverra.</p>
+					</div>
+					<div class="contact_info__data">
+						<p>
+							<strong>JAN NOWAK<br>
+							<a href="tel:+48111222333">+48 111 222 333</a><br>
+							<a href="mailto:jan@nowak.pl">JAN@NOWAK.PL</a><br>
+							<a href="www.nowak.pl">WWW.NOWAK.PL</a></strong>
+						</p>
+					</div>
+				</div>
+				<div class="form_item form_item__textarea">
+					<label for="contact_text">Wiadomość</label>
+					<textarea id="contact_text" name="contact_text" required tabindex="3"></textarea>
+				</div>
+				<button id="formSubmit" class="btn" type="submit" name="contact_submit" tabindex="4">Wyślij</button>
+			</form>
+		</div>
+	</footer>
+	<!-- build:js -->
+	<script src="js/jquery.slim.min.js"></script>
+	<script src="js/scripts.js"></script>
+	<!-- endbuild -->
+</body>
+</html>
